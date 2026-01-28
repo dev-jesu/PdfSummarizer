@@ -1,11 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import pdf
+from app.routers import health
 
 app = FastAPI(
     title="PDF Summarizer Backend",
     version="0.1.0"
-    
 )
 
 app.add_middleware(
@@ -17,3 +17,9 @@ app.add_middleware(
 )
 
 app.include_router(pdf.router)
+app.include_router(health.router)
+
+@app.get("/")
+def root():
+    return {"status": "Backend running"}
+
