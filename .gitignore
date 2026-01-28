@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.env/
+.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.egg
+MANIFEST
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Mypy / type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Logs
+*.log
+*.log.*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+.history/
+
+# Node / frontend
+node_modules/
+dist/
+build/
+/.vite/
+/.parcel-cache/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend env files (may contain secrets)
+.env.local
+.env.*.local
+
+# Static/site generators / frameworks
+.next/
+.public/build/
+
+# Test / runtime artifacts
+*.pid
+*.seed
+*.pid.lock
+
+# Misc
+*.lock
+~$*
+
+# OneDrive
+OneDrive Temp
+
+# Keep lockfiles (package-lock.json, yarn.lock, pnpm-lock.yaml) tracked - do NOT add them here intentionally
