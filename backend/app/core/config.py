@@ -5,7 +5,6 @@ print("DEBUG: Current working directory =", os.getcwd())
 
 load_dotenv()  # default behavior
 
-print("DEBUG: GEMINI_API_KEY from env =", os.getenv("GEMINI_API_KEY"))
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 import os
