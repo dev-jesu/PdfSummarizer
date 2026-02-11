@@ -118,10 +118,5 @@ By default Vite serves on `http://localhost:5173`. The backend allows CORS for `
 
 ---
 
-## Contact / Next steps
 
-If you want, I can:
-- Add a small `.env.example` with the expected variables and instructions.
-- Add a script to automate backend setup (venv + pip install).
-- Add a simple smoke-test script for the summarize endpoint.
 
